@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static('./dist/example'));
 
 app.get('/*', function (req, res) {
-  res.sendFile('index.html', { root: 'dist/example' }
+  res.sendFile('', { root: 'dist/example' }
   );
 });
 
